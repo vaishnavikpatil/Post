@@ -142,7 +142,7 @@ scrollController = ScrollController();
                 //CLOSING ANIMATED CONTAINERS ON PAGE CHANGE
                  _commentcontroller.reverse();
                  _commenttypecontroller.reverse();
-              });
+              });   
             },
             itemBuilder: (BuildContext context, int index) {
               return Stack(
